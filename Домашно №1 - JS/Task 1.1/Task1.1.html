@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 01 JS</title>
+    <script type="text/javascript">
+        //1. Декларираме променлива, която ще приема стойноста написана от потребителя
+        var imgName;
+        
+        //2. Питаме потребителя коя картинка избира
+        imgName=window.prompt('Моля, напишете вид покер /Тексас, Омаха или Стъд/:');
+        
+        //3. Правим проверка на въведеното от потребителя и извеждаме резултата
+        if(imgName=="Тексас" || imgName=="тексас"){
+            document.write('<img src="./Ace.png" alt="texas_ace"></img>');
+        }
+        if(imgName=="Омаха" || imgName=="омаха"){
+            document.write('<img src="./King.png" alt="omaha_king"></img>');
+        }
+        if(imgName=="Стъд" || imgName=="стъд"){
+            document.write('<img src="./Queen.png" alt="stud_queen" ></img>');
+        }
+        //4. Задача 1.1 проверка за Cancel и ОК
+        if(imgName===null || imgName===""){
+            document.write('<img src="./Jack.png" ></img>')
+        }
+        
+        //3.1 Задача 1 и 1.1 изградена с конструкцията if ... else if ... else 
+        /*if(imgName=="Тексас" || imgName=="тексас"){
+            document.write('<img src="./Ace.png" alt="texas_ace"></img>');
+        }
+        else if(imgName=="Омаха" || imgName=="омаха"){
+            document.write('<img src="./King.png" alt="omaha_king"></img>');
+        }
+        else if(imgName=="Стъд" || imgName=="стъд"){
+            document.write('<img src="./Queen.png" alt="stud_queen" ></img>')
+        }else{
+            document.write('<img src="./Jack.png" ></img>')
+        }*/
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
