@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+     <script type="text/javascript">
+         
+        //1. Декларираме променлива, която ще приема стойността написана от потребителя
+        var lang;
+         
+        //2. Декларираме променливи, които ще приемат стойности съответни за езика
+        var bg = "Добре дошли!";
+        var uk = "Welcome!";
+        var it = "Benvenuto!";
+        var dfltGreeting = "Please enter bg,uk or it!"; 
+         
+        //2. Питаме потребителя кой език предпочита
+        lang=window.prompt("Please enter the language you prefer /bg, uk, it/");
+        
+        //3. Правим проверка на въведеното от потребителя и извеждаме резултата
+        if(lang=="bg"){
+            document.write('<h2>'+bg+'</h2>');
+        }
+        else if(lang=="uk"){
+            document.write('<h2>'+uk+'</h2>');
+        }
+        else if(lang=="it"){
+            document.write('<h2>'+it+'</h2>')
+        }else{
+            document.write('<h2>'+dfltGreeting+'</h2>')
+        }
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
