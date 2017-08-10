@@ -1,0 +1,9 @@
+/*Експeриментален CSS*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgEx{
+    border-radius: 50%;
+}
