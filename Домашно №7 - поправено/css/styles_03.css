@@ -1,0 +1,23 @@
+#silver{
+    text-align: center;
+    background-color: silver;
+}
+.link a:link{
+    color: yellowgreen;
+    text-decoration: none;
+}
+.link a:visited{
+    color: cadetblue;
+    text-decoration: none;
+}
+.link a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.img{
+    width: 200px;
+     opacity: 0.75;
+}
+img:hover{
+    opacity: 1;
+}

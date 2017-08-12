@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+    <form action="" method="post" >
+               <!-- ACCOUNT INFORMATION-->
+                <fieldset style="width:500px;">
+                   <legend>Данни на потребителя</legend>                
+                        <table>                 
+                            <tr>
+                              <td>Потребителско име</td>
+                              <td><input type="text" name="username" size="15"></td>
+                            </tr>
+                            <tr>
+                              <td>Парола</td>
+                              <td><input type="password" name="password" size="10"></td>
+                            </tr>
+                            <tr>
+                              <td>Повтори паролата</td>
+                              <td><input type="password" name="password" size="10"></td>
+                            </tr>
+                        </table>               
+                   </fieldset>               
+                   <!--PERSONAL INFORMATION-->
+                   <fieldset style="width:500px;">
+		                <legend>Лична информация</legend>      
+                             <table>                 
+                            <tr>
+                              <td>Име</td>
+                              <td><input type="text" name="name" size="15"></td>
+                            </tr>
+                            <tr>
+                              <td>Фамилия</td>
+                              <td><input type="text" name="family_name" size="15"></td>
+                            </tr>
+                            <tr>
+                              <td>Дата на ражадане</td>
+                             
+                              <td>
+                              
+                                <select name="date" id="">
+                               
+                                    <option value="0">-----------</option>
+                                    <option value="1">1-10</option>
+                                    <option value="2">11-21</option>
+                                    <option value="3">22-31</option>
+                                </select>
+                                
+                                <select name="month" id="">
+                                    <option value="0">-----------</option>
+                                    <option value="1">Януари</option>
+                                    <option value="2">Февруари</option>
+                                    <option value="3">Март</option>
+                                    <option value="4">Април</option>
+                                    <option value="5">Май</option>
+                                    <option value="6">Юни</option>
+                                    <option value="7">Юли</option>
+                                    <option value="8">Август</option>
+                                    <option value="9">Септември</option>
+                                    <option value="10">Октомври</option>
+                                    <option value="11">Ноември</option>
+                                    <option value="12">Декември</option>
+                                </select>
+                                
+                                <select name="year" id="">
+                                    <option value="0">-----------</option>
+                                    <option value="1">1930-1940</option>
+                                    <option value="2">1941-1951</option>
+                                    <option value="3">1952-1962</option>
+                                    <option value="4">1963-1973</option>
+                                    <option value="5">1974-1984</option>
+                                    <option value="6">1985-1995</option>
+                                    <option value="7">1996-2006</option>
+                                    <option value="8">2007-2017</option>
+                                </select>
+                              
+                              </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Пол:</p>
+                                </td>
+                                <td>
+		                            <input type="radio" name="gender" value="m"> Мъж
+		                            <input type="radio" name="gender" value="f"> Жена
+                                    <input type="radio" name="gender" value="o"> Друго
+                                </td>
+                            </tr>
+                            <tr>
+                               <td>
+                               <p>Местоживеене:</p>
+                               </td>
+                                <td><select name="place" id="">
+                                    <option value="0">-----------</option>
+                                    <option value="1">София</option>
+                                    <option value="2">Пловдив</option>
+                                    <option value="3">Варна</option>
+                                    <option value="4">Бургас</option>
+                                    <option value="5">Русе</option>
+                                </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Професия:</p>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="student">Студент
+                                    <input type="checkbox" name="teacher">Учител
+                                    <input type="checkbox" name="lawyer">Адвокат
+                                    <input type="checkbox" name="architect">Архитект
+                                </td>
+                            </tr>
+                            
+                        </table>               
+                     </fieldset>  
+                       <!--BUTTONS-->
+                        <p>
+	                        <input type="submit" value="Изпрати">
+	                        <input type="reset" value="Изтрий">
+	                    </p>
+                   
+                  </form>
+                 
+</body>
+</html>

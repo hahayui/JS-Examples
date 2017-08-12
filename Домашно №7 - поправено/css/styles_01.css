@@ -1,0 +1,26 @@
+/*  INDEX.HTML  */
+
+/*FOR ALL H1*/
+h1{
+    color: darkblue;
+    font-size: 25pt;
+    font-family: Impact;
+}
+/*FOR ALL PARAGRAPHS*/
+p{
+    color: cornflowerblue;
+    font-size: 13pt;
+    font-family: Trebuchet MS;
+}
+/*FOR ALL EM'S*/
+em{
+    color: darkorange;
+    font-size: 13pt;
+    font-family: Trebuchet MS;
+}
+/*FOR ALL STRONG'S*/
+strong{
+    color:darkred;
+    font-size: 13pt;
+    font-family:Trebuchet MS;
+}

@@ -1,0 +1,44 @@
+/* TEXAS.HTML */
+
+/* FOR ALL H1 */
+h1{
+    color: #2c74f9;
+            font-size: 25pt;
+            font-family: Apple Chancery; 
+}
+/* FOR ALL H2 */
+h2{
+    color: blueviolet;
+    font-size: 19pt;
+    font-family: OCR A Std;
+}
+/* FOR ALL PARAGRAPHS */
+p{
+    color: coral;
+    font-size: 13pt;
+    font-family:Trebuchet MS;
+}
+/* FOR ALL BOLD'S */
+b{
+    color: darkred;
+    font-size: 13pt;
+    font-family:Trebuchet MS; 
+}
+/* FOR ALL EM'S */
+em{
+    color:darkorange;
+    font-size: 13pt;
+    font-family:Trebuchet MS;
+}
+
+/* КОНТЕКСТЕН СЕЛЕКТОР */
+h1 i {
+    color: aqua;
+}
+
+/* КЛАСОВ СЕЛЕКТОР */
+.viptext{
+    color: red;
+    font-size: 23pt;
+    font-family: Palatino Linotype;
+}
