@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1 and 1.1 - jQuery</title>
+</head>
+<body>
+       <!-- SCRIPTS -->
+       <!-- jQuery -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    
+    <script>
+     //1. Декларираме променлива приемаща стойност за име на картинката
+        var imgName='';
+        
+        $(document).ready(function(){
+                    imgName=window.prompt("Моля, напишете вид покер /texas, omaha или stud/:");
+                            if(imgName===null || imgName===""){
+                                imgName='default';
+                            }
+                          $(document.body).append('<img src="./images/' + imgName + '.png">');
+                    });      
+    </script>
+</body>
+</html>
